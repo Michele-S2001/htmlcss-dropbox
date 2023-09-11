@@ -96,6 +96,11 @@ p {
     flex-basis: 100%;
 }
 
+.col-streched {
+    display: flex;
+    align-items: stretch;
+}
+
 /* content flex positioning */
 .justify-between {
     justify-content: space-between;
