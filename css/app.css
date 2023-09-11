@@ -26,6 +26,10 @@ a {
     display: inline-block;
 }
 
+p {
+    line-height: 1.3em;
+}
+
 /* COLOR PALETTE */
 :root {
     --bg-blue: #0061FF;
@@ -102,6 +106,11 @@ a {
     color: var(--text-white);
 }
 
+.big-btn {
+    line-height: 42px;
+    margin-bottom: 34px;
+}
+
 /* NAVBAR STYLING SECTION */
 .page-header .navbar {
     padding: 20px 20px;
@@ -117,4 +126,35 @@ a {
     gap: 40px;
     align-items: center;
     font-size: 15px;
+}
+
+/* HERO STYLING SECTION */
+.hero {
+    background-color: var(--bg-lightBlue);
+    padding: 100px 10px 5px 10px;
+}
+
+.hero .hero__title {
+    font-size: 70px;
+    font-weight: 900;
+    padding-bottom: 60px;
+}
+
+.hero .hero__description {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.hero__description .down-arrow {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.hero__description .text-section {
+    flex-grow: 1;
+}
+
+.hero__description .text-section p {
+    margin-bottom: 35px;
 }
