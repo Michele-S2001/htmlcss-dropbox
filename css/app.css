@@ -23,7 +23,7 @@ menu {
 a {
     text-decoration: none;
     color: currentColor;
-    display: block;
+    display: inline-block;
 }
 
 /* COLOR PALETTE */
@@ -39,6 +39,7 @@ a {
     --bg-red: #FF1C1C;
     --bg-darkRed: #D5001F;
     --bg-ocher: #FFD830;
+    --text-white: #fff;
 }
 
 /* UTILITY CLASSES */
@@ -77,11 +78,43 @@ a {
     flex-basis: 100%;
 }
 
+/* content flex positioning */
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
 /* buttons */
-.button-bg-blue {
-    background-color: var(--bg-blue);
+.button {
+    line-height: 30px;
+    padding: 0 17px;
 }
 
 .button-bg-white {
     background-color: var(--bg-white);
+}
+
+.blue-btn {
+    background-color: var(--bg-blue);
+    color: var(--text-white);
+}
+
+/* NAVBAR STYLING SECTION */
+.page-header .navbar {
+    padding: 20px 20px;
+}
+
+.page-header .navbar li {
+    line-height: 30px;
+}
+
+.navbar .navbar__overview,
+.navbar .navbar__interactions {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 15px;
 }
