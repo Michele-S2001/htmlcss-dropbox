@@ -86,8 +86,14 @@ p {
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
 }
+.col-5 {
+    flex-basis: calc((100% / 12) * 5);
+}
 .col-6 {
     flex-basis: calc((100% / 12) * 6);
+}
+.col-7 {
+    flex-basis: calc((100% / 12) * 7);
 }
 .col-8 {
     flex-basis: calc((100% / 12) * 8);
@@ -292,6 +298,23 @@ p {
 
 .card-content.contact-office {
     padding-left: 60px;
+}
+
+/* FIND A CONSULTANT SECTION */
+.find-consultant {
+    padding: 120px 10px;
+}
+
+.find-consultant .find-consultant__description{
+    padding: 48px;
+}
+
+.find-consultant__description .button{
+    border: 2px inset var(--bg-black);
+}
+
+.find-consultant__description p {
+    margin-bottom: 30px;
 }
 
 
