@@ -25,3 +25,18 @@ a {
     color: currentColor;
     display: inline-block;
 }
+
+/* COLOR PALETTE */
+:root {
+    --bg-blue: #0061FF;
+    --bg-white: #FFFFFF;
+    --bg-lightBlue: #B4D0E7;
+    --bg-black: #000;
+    --bg-wine: #61082B;
+    --bg-green: #A2D39B;
+    --bg-lightGrey: #F5F5F5;
+    --bg-darkBlue: #0D2481;
+    --bg-red: #FF1C1C;
+    --bg-darkRed: #D5001F;
+    --bg-ocher: #FFD830;
+}
