@@ -216,6 +216,10 @@ p {
     padding: 0 10px 30px 10px;
 }
 
+.subscriptions .row.rowOne {
+    margin-bottom: 50px;
+}
+
 .subscriptions__card {
     border: 2px solid var(--border-grey);
 }
@@ -223,11 +227,11 @@ p {
 .subscriptions__card .card-category {
     text-align: center;
     padding: 10px 0;
-    border-bottom: 2px solid var(--border-lightGrey);
 }
 
 .subscriptions__card .card-content {
     padding: 40px 30px;
+    border-top: 2px solid var(--border-lightGrey);
 }
 
 .subscriptions__card .subscription-payment {
@@ -253,7 +257,7 @@ p {
     margin-bottom: 25px;
 }
 
-.card-content .tryOrBuy li > .button {
+.card-content .button {
     display: block;
     text-align: center;
 }
@@ -274,7 +278,12 @@ p {
     margin-bottom: 30px;
 }
 
-
+.card-content.sales-office > p::before {
+    content: "Contatta l'ufficio vendite per i prezzi";
+    font-weight: bold;
+    display: block;
+    margin-bottom: 60px;
+}
 
 
 
