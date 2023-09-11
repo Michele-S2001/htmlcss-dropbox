@@ -23,7 +23,7 @@ menu {
 a {
     text-decoration: none;
     color: currentColor;
-    display: inline-block;
+    display: block;
 }
 
 /* COLOR PALETTE */
@@ -39,4 +39,49 @@ a {
     --bg-red: #FF1C1C;
     --bg-darkRed: #D5001F;
     --bg-ocher: #FFD830;
+}
+
+/* UTILITY CLASSES */
+
+/* containers */
+.container-sm {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-lg {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    max-width: 100%;
+}
+
+/* rows */
+.row {
+    display: flex;
+}
+
+/* columns */
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+}
+.col-6 {
+    flex-basis: calc((100% / 12) * 6);
+}
+.col-8 {
+    flex-basis: calc((100% / 12) * 8);
+}
+.col-12 {
+    flex-basis: 100%;
+}
+
+/* buttons */
+.button-bg-blue {
+    background-color: var(--bg-blue);
+}
+
+.button-bg-white {
+    background-color: var(--bg-white);
 }
