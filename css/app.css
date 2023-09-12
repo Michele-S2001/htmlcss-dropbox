@@ -273,7 +273,7 @@ p {
     text-align: center;
 }
 
-.card-content .tryOrBuy li > .buyNow {
+.buyNow {
     color: var(--text-blue);
     text-decoration: underline;
 }
@@ -326,6 +326,10 @@ p {
     padding-bottom: 10px;
 }
 
+/* ABOUT CLIENTS STYLING SECTION */
+.about-clients {
+    padding: 140px 10px;
+}
 
 
 
