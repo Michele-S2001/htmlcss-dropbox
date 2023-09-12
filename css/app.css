@@ -30,6 +30,11 @@ p {
     line-height: 1.3em;
 }
 
+select {
+    background-color: transparent;
+    border: none;
+}
+
 * > h3 {
     font-size: 40px;
     margin-bottom: 65px;
@@ -441,9 +446,38 @@ p {
 
 .question span {
     margin-right: 40px;
+    cursor: pointer;
 }
 
+/* FOOTER STYLING SECTION */
+.page-footer {
+    padding: 45px 20px;
+    background-color: var(--bg-black);
+    color: var(--text-white);
+    position: relative;
+}
 
+.page-footer .footer-links {
+    padding-top: 55px;
+}
 
+.footer-links .links-card {
+    padding-bottom: 115px;
+}
 
-/* debug rules */
+.footer-links .links-card:first-child {
+    border-bottom: 1px solid var(--bg-lightGrey);
+}
+
+.footer-links .links-card .links-topic {
+    margin-bottom: 37px;
+}
+
+.footer-links .links-card .links-list > .link {
+    line-height: 40px;
+}
+
+.footer-lang .row > * {
+    gap: 10px;
+    color: var(--text-grey);
+}
