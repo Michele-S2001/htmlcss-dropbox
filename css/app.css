@@ -424,8 +424,24 @@ p {
     color: var(--bg-wine);
 }
 
+/* Q&A STYLING SECTION */
+.questions {
+    padding: 160px 10px;
+}
 
+.questions .question {
+    display: flex;
+    border-top: 1px solid var(--bg-black);
+    line-height: 100px;
+}
 
+.questions .question:last-child {
+    border-bottom: 1px solid var(--bg-black);
+}
+
+.question span {
+    margin-right: 40px;
+}
 
 
 
