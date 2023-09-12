@@ -248,6 +248,10 @@ select {
     margin-bottom: 35px;
 }
 
+.hero .hero-img {
+    transform: scale(1.2) translate(57px, 35px);
+}
+
 /* PAGE CONTENT >> BUSINESS PLAN BILLING OPTIONS */
 .business-plan {
     padding: 150px 10px 50px 10px;
