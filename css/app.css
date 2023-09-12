@@ -84,6 +84,9 @@ p {
 }
 
 /* columns */
+.col-2 {
+    flex-basis: calc((100% / 12) * 2);
+}
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
 }
@@ -343,7 +346,42 @@ p {
 
 
 /* debug rules */
-.debug .subscriptions .subscriptions__card {
-    min-height: 500px;
-    /* border: 2px solid black; */
+
+.debug .row .col.col-2 > figure {
+    padding: 40px 20px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px dotted red;
+}
+
+.debug .row .col.col-2 > figure img {
+    min-height: 50px;
+    width: 180px;
+}
+
+.debug .row .col.col-4 > figure img {
+    min-height: 90px;
+    flex-shrink: 0;
+}
+
+.debug .row .col.col-4 > figure {
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.debug .row .col.col-4 {
+    padding: 50px 50px;
+    background-color: var(--bg-lightGrey);
+    border: 4px dashed green;
+}
+
+.debug .row .col.col-4 > figure::after {
+    content: "";
+    background-color: var(--border-grey);
+    position: absolute;
+    margin-top: 45px;
+    width: 110px;
+    height: 2px;
 }
