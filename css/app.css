@@ -102,9 +102,8 @@ p {
     flex-basis: 100%;
 }
 
-.col-streched {
-    display: flex;
-    align-items: stretch;
+.content-streched {
+    min-height: 100%;
 }
 
 /* content flex positioning */
