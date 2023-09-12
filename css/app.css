@@ -119,6 +119,39 @@ p {
     align-items: center;
 }
 
+/* background color */
+.bg-green {
+    background-color: var(--bg-green);
+}
+
+.bg-blue {
+    background-color: var(--bg-blue);
+}
+
+.bg-wine {
+    background-color: var(--bg-wine);
+}
+
+.bg-red {
+    background-color: var(--bg-red);
+}
+
+.bg-darkRed {
+    background-color: var(--bg-darkRed);
+}
+
+.bg-darkBlue {
+    background-color: var(--bg-darkBlue);
+}
+
+.bg-lightBlue {
+    background-color: var(--bg-lightBlue);
+}
+
+.bg-ocher {
+    background-color: var(--bg-ocher);
+}
+
 /* buttons */
 .button {
     line-height: 30px;
