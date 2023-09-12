@@ -408,6 +408,23 @@ p {
     height: 2px;
 }
 
+/* FREE TRIAL STYLING SECTION */
+.free-trial {
+    background-color: var(--bg-lightBlue);
+    padding: 130px 10px 65px 10px;
+}
+
+.free-trial .trial-btn {
+    background-color: var(--bg-white);
+    display: block;
+    text-align: center;
+}
+
+.free-trial .trial-title {
+    color: var(--bg-wine);
+}
+
+
 
 
 
