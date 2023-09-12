@@ -377,6 +377,10 @@ select {
     filter: invert(100%);
 }
 
+.companies .company-logo.inset-shadow {
+    box-shadow: inset 0px -1px 0px 17px #d1e9cd;
+}
+
 .companies .col-2 > .company-logo {
     padding: 40px 20px;
     height: 300px;
