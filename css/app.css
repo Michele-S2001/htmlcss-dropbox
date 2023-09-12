@@ -318,6 +318,10 @@ p {
 }
 
 /* DROPBOX BUSINESS STYLING */
+.dropbox-business {
+    padding: 40px 10px;
+}
+
 .dropbox-business .smart-card figure > img {
     padding-bottom: 10px;
 }
