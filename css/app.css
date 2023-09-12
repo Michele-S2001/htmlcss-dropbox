@@ -80,6 +80,7 @@ p {
 /* rows */
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* columns */
@@ -144,8 +145,8 @@ p {
     padding-right: 20px;
 }
 
-.padding-right-left-20 {
-    padding: 0 20px;
+.padding-right-left-10 {
+    padding: 0 10px;
 }
 
 .padding-left-20 {
@@ -316,7 +317,10 @@ p {
     margin-bottom: 30px;
 }
 
-
+/* DROPBOX BUSINESS STYLING */
+.dropbox-business .smart-card figure > img {
+    padding-bottom: 10px;
+}
 
 
 
