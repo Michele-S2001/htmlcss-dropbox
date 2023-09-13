@@ -260,6 +260,7 @@ select {
     border-radius: 50%;
     border: 3px solid var(--bg-blue);
     color: var(--bg-blue);
+    z-index: 900;
 }
 
 .back-to-top a {
