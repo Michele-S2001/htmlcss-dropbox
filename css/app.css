@@ -375,21 +375,20 @@ select {
     filter: invert(100%);
 }
 
-.companies .company-logo.inset-shadow {
-    box-shadow: inset 0px -1px 0px 17px #d1e9cd;
+.companies .company-logo:hover {
+    box-shadow: inset 0px -1px 0px 17px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
 }
 
 .companies .col-2 > .company-logo {
-    padding: 40px 20px;
-    height: 300px;
+    aspect-ratio: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .companies .col-2 > .company-logo img {
-    min-height: 50px;
-    width: 180px;
+    width: 50%;
 }
 
 .companies .col-4 > .company-logo {
@@ -398,7 +397,7 @@ select {
 }
 
 .companies .col-4 > .company-logo img {
-    height: 90px;
+    width: 50%;
 }
 
 .companies .col.col-4 {
