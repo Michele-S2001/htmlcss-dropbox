@@ -7,6 +7,7 @@
 
 body {
     font-family: sans-serif;
+    position: relative;
 }
 
 img {
@@ -244,6 +245,25 @@ select {
 .hero .row + .row {
     position: relative;
     top: 70px;
+}
+
+/* UP ARROW */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: var(--bg-white);
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid var(--bg-blue);
+    color: var(--bg-blue);
+}
+
+.back-to-top a {
+    padding: 16px;
 }
 
 /* PAGE CONTENT >> BUSINESS PLAN BILLING OPTIONS */
