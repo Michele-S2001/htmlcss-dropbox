@@ -227,6 +227,12 @@ select {
 .hero .hero__title {
     font-size: 70px;
     font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.hero .hero__description {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero__description .down-arrow {
@@ -242,9 +248,8 @@ select {
     margin-bottom: 35px;
 }
 
-.hero .row + .row {
-    position: relative;
-    top: 70px;
+.hero .hero-img {
+    margin-bottom: -70px;
 }
 
 /* UP ARROW */
